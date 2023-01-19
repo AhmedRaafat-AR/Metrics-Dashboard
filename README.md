@@ -22,6 +22,16 @@ SLIs (Service Level Indicators) are metrics used to measure the performance of a
 ## Creating SLI metrics.
 *TODO:* It is important to know why we want to measure certain metrics for our customer. Describe in detail 5 metrics to measure these SLIs. 
 
+1. Availability: This metric measures the percentage of time that a service is available to users. It can be measured by tracking the number of requests that are successfully completed and dividing it by the total number of requests made over a certain period of time.
+
+2. Response Time: This metric measures how long it takes for a request to be processed and responded to. It can be measured by tracking the amount of time it takes for each request to be completed from start to finish.
+
+3. Error Rate: This metric measures the percentage of requests that failed due to an error or other issue with the service. It can be measured by tracking the number of failed requests compared to the total number of requests made over a certain period of time.
+
+4. Throughput: This metric measures how many requests can be processed in a given amount of time, such as per second or minute. It can be measured by tracking the number of successful requests completed over a certain period of time divided by that same period’s duration (seconds or minutes). 
+
+5. Latency: This metric measures how long it takes for data to travel from one point in a system to another, such as from server to client or vice versa. It can be measured by tracking how long it takes for each request or response packet to travel between two points in a system over a certain period of time.
+
 ## Create a Dashboard to measure our SLIs
 *TODO:* Create a dashboard to measure the uptime of the frontend and backend services We will also want to measure to measure 40x and 50x errors. Create a dashboard that show these values over a 24 hour period and take a screenshot.
 
