@@ -4,6 +4,7 @@ from prometheus_flask_exporter import PrometheusMetrics
 import pymongo
 from flask_pymongo import PyMongo
 
+
 app = Flask(__name__)
 metrics = PrometheusMetrics(app)
 
