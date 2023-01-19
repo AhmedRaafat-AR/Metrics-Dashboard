@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 from prometheus_flask_exporter import PrometheusMetrics
 
-
 import pymongo
 from flask_pymongo import PyMongo
 
