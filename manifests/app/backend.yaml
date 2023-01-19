@@ -15,7 +15,7 @@ spec:
       containers:
       - name: backend
         # We advise you to build, push and use your own image, instead of using instructor's image.      
-        image: ghcr.io/jasonsmithio/backend:v1
+        image: ar251/dashboard:backend
         ports:
         - containerPort: 8081
 ---
