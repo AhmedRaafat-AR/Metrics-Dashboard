@@ -15,9 +15,9 @@ spec:
       containers:
       - name: backend
         # We advise you to build, push and use your own image, instead of using instructor's image.      
-        image: ar251/dashboard:backend
+        image: ar251/backend:v1
         ports:
-        - containerPort: 8081
+        - containerPort: 8080
 ---
 apiVersion: v1
 kind: Service
