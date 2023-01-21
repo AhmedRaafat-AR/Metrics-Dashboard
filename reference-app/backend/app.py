@@ -6,10 +6,8 @@ from jaeger_client import Config
 from opentelemetry.instrumentation.flask import FlaskInstrumentor
 from opentelemetry.instrumentation.requests import RequestsInstrumentor
 
-
 import pymongo
 from flask_pymongo import PyMongo
-
 
 app = Flask(__name__)
 metrics = PrometheusMetrics(app)
