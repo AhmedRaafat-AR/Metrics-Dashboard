@@ -3,16 +3,16 @@
 ## Verify the monitoring installation
 
 *TODO:* run `kubectl` command to show the running pods and services for all components. Take a screenshot of the output and include it here to verify the installation
-![get_all_svc_pod]:(./answer-img/get_all_svc_pods.png)
+![get_all_svc_pod]:(answer-img/get_all_svc_pods.png)
 
 ## Setup the Jaeger and Prometheus source
 *TODO:* Expose Grafana to the internet and then setup Prometheus as a data source. Provide a screenshot of the home page after logging into Grafana.
-![grafana_web_ui]:(./answer-img/grafana_web_ui.png)
-![data_source]:(./answer-img/data_source.png)
+![grafana_web_ui]:(answer-img/grafana_web_ui.png)
+![data_source]:(answer-img/data_source.png)
 
 ## Create a Basic Dashboard
 *TODO:* Create a dashboard in Grafana that shows Prometheus as a source. Take a screenshot and include it here.
-![prometheus_data_source]:(./answer-img/prometheus_data_source.png)
+![prometheus_data_source]:(answer-img/prometheus_data_source.png)
 
 ## Describe SLO/SLI
 *TODO:* Describe, in your own words, what the SLIs are, based on an SLO of *monthly uptime* and *request response time*.
@@ -34,6 +34,7 @@ SLIs (Service Level Indicators) are metrics used to measure the performance of a
 
 ## Create a Dashboard to measure our SLIs
 *TODO:* Create a dashboard to measure the uptime of the frontend and backend services We will also want to measure to measure 40x and 50x errors. Create a dashboard that show these values over a 24 hour period and take a screenshot.
+![uptime_dashboard]:(answer-img/uptime_dashboard.png)
 
 ## Tracing our Flask App
 *TODO:*  We will create a Jaeger span to measure the processes on the backend. Once you fill in the span, provide a screenshot of it here. Also provide a (screenshot) sample Python file containing a trace and span code used to perform Jaeger traces on the backend service.
