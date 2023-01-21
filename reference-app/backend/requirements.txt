@@ -6,3 +6,9 @@ pymongo==3.11.0
 Flask-PyMongo==2.3.0
 prometheus-client==0.12.0
 prometheus-flask-exporter
+jaeger-client
+opentelemetry-instrumentation
+opentelemetry-sdk
+opentelemetry-instrumentation-requests
+opentelemetry-instrumentation-flask
+opentelemetry-api
