@@ -39,4 +39,4 @@ jobs:
           file: ./reference-app/backend/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: ar251/dashboard:backend.v2
+          tags: ar251/dashboard:backend.v3

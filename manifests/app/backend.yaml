@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend-app
-        image: ar251/dashboard:backend.v2
+        image: ar251/dashboard:backend.v3
         ports:
         - name: web-backend
           containerPort: 8080
