@@ -12,3 +12,4 @@ opentelemetry-sdk
 opentelemetry-instrumentation-requests
 opentelemetry-instrumentation-flask
 opentelemetry-api
+Flask-Opentracing
