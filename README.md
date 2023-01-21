@@ -36,6 +36,9 @@ SLIs (Service Level Indicators) are metrics used to measure the performance of a
 
 ## Tracing our Flask App
 *TODO:*  We will create a Jaeger span to measure the processes on the backend. Once you fill in the span, provide a screenshot of it here. Also provide a (screenshot) sample Python file containing a trace and span code used to perform Jaeger traces on the backend service.
+![jaeger_backend_1](answer-img/jaeger_backend_1.png)
+![jaeger_backend_2](answer-img/jaeger_backend_2.png)
+![jaeger_backend_code](answer-img/jaeger_backend_code.png)
 
 ## Jaeger in Dashboards
 *TODO:* Now that the trace is running, let's add the metric to our current Grafana dashboard. Once this is completed, provide a screenshot of it here.
