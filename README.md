@@ -43,23 +43,25 @@ SLIs (Service Level Indicators) are metrics used to measure the performance of a
 ## Jaeger in Dashboards
 *TODO:* Now that the trace is running, let's add the metric to our current Grafana dashboard. Once this is completed, provide a screenshot of it here.
 ![jaeger_grafana](answer-img/jaeger_grafana.png)
+
 ## Report Error
 *TODO:* Using the template below, write a trouble ticket for the developers, to explain the errors that you are seeing (400, 500, latency) and to let them know the file that is causing the issue also include a screenshot of the tracer span to demonstrate how we can user a tracer to locate errors easily.
 
 TROUBLE TICKET
 
-Name:
+Name: Backend "status_code 400"
 
-Date:
+Date: January 23 2023, 10:18 AM
 
-Subject:
+Subject: Mogogdb operator not respond
 
-Affected Area:
+Affected Area: Backend service 
 
-Severity:
+Severity: Critical
 
-Description:
-
+Description: The endpoint http://localhost:8081/star for add_star service not working we need to check both the backend connection to monogdb and monogdb deployment in the cluster.
+![jaeger_add_star_opra](answer-img/jaeger_add_star_opra.png)
+![backend_add_star](answer-img/backend_add_star.png)
 
 ## Creating SLIs and SLOs
 *TODO:* We want to create an SLO guaranteeing that our application has a 99.95% uptime per month. Name four SLIs that you would use to measure the success of this SLO.
@@ -68,4 +70,5 @@ Description:
 *TODO*: Now that we have our SLIs and SLOs, create a list of 2-3 KPIs to accurately measure these metrics as well as a description of why those KPIs were chosen. We will make a dashboard for this, but first write them down here.
 
 ## Final Dashboard
-*TODO*: Create a Dashboard containing graphs that capture all the metrics of your KPIs and adequately representing your SLIs and SLOs. Include a screenshot of the dashboard here, and write a text description of what graphs are represented in the dashboard.  
+*TODO*: Create a Dashboard containing graphs that capture all the metrics of your KPIs and adequately representing your SLIs and SLOs. Include a screenshot of the dashboard here, and write a text description of what graphs are represented in the dashboard.
+
