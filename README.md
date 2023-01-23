@@ -82,4 +82,16 @@ Description: The endpoint http://localhost:8081/star for add_star service not wo
 
 ## Final Dashboard
 *TODO*: Create a Dashboard containing graphs that capture all the metrics of your KPIs and adequately representing your SLIs and SLOs. Include a screenshot of the dashboard here, and write a text description of what graphs are represented in the dashboard.
+![sli_slo_dashboard](answer-img/sli_slo_dashboard.png)
 
+1. Total successful requests per minute: Measure Number of successful "200" backend and frontend requests per miute.
+
+2. Total requests per minute: Measure Number of requests 20x, 30x, 40x and 50x backend and frontend requests per miute.
+
+3. Average response time per path: The average response time measured over 1m intervals for successful requests. Shown per path.
+
+4. Errors per minute: Measure Number of failed (non HTTP 200) responses per second.
+
+5. CPU usage: Measure cpu usage of the backend and frontend app as measured over 1 seconds intervals.
+
+6. Memory usage: Measure memory usage of the backend and frontend app as measured over 1 seconds intervals.
