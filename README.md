@@ -66,8 +66,19 @@ Description: The endpoint http://localhost:8081/star for add_star service not wo
 ## Creating SLIs and SLOs
 *TODO:* We want to create an SLO guaranteeing that our application has a 99.95% uptime per month. Name four SLIs that you would use to measure the success of this SLO.
 
+1. Total number of minutes the application is available per month
+2. Total number of requests served per month
+3. Average response time for requests
+4. Number of outages per month
+
 ## Building KPIs for our plan
 *TODO*: Now that we have our SLIs and SLOs, create a list of 2-3 KPIs to accurately measure these metrics as well as a description of why those KPIs were chosen. We will make a dashboard for this, but first write them down here.
+
+1. Availability: The percentage of time the system is available and accessible by customers. This KPI will help us measure how often our SLIs are being met and how reliable our system is for customers.
+
+2. Response Time: The amount of time it takes for the system to respond to a customer request or query. This KPI will help us measure how quickly our SLOs are being met and provide insight into user experience.
+
+3. Error Rate: The percentage of requests or queries that fail or return an error code. This KPI will help us measure how often our SLIs are not being met, giving us insight into potential issues with the system that need to be addressed.
 
 ## Final Dashboard
 *TODO*: Create a Dashboard containing graphs that capture all the metrics of your KPIs and adequately representing your SLIs and SLOs. Include a screenshot of the dashboard here, and write a text description of what graphs are represented in the dashboard.
